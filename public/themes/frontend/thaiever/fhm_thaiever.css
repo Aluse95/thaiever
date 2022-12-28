@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --pri-color: #197c53;
+}
+
+body,
+small,
+.sub-menu-container .menu-item > .menu-link,
+.wp-caption,
+.fbox-center.fbox-italic p,
+.skills li .progress-percent .counter,
+.nav-tree ul ul a,
+.font-body {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.button.button-border {
+  border-color: var(--pri-color) !important;
+  /* color: var(--pri-color) !important; */
+}
+
+.button.button-border:not(.button-fill):hover {
+  background-color: var(--pri-color);
+  color: #fff !important;
+}
+
+/* START HEADER */
+.header-size-md #header-wrap #logo img {
+  height: 50px;
+}
+
+/* END HEADER */
+/* START NEW PRODUCT */
+
+.table-striped > tbody > tr:nth-child(odd) {
+  background-color: transparent;
+}
+
+tr {
+  border: none;
+}
+
+tr td {
+  border: none;
+  background-color: transparent;
+}
+
+tr td:nth-child(2) {
+  border-left: 1px solid #ccc;
+}
+/* END NEW PRODUCT */
+
+/* START CERTIFICATE */
+
+#certificate .fbox-light .fbox-icon img,
+#certificate .fbox-icon i,
+#certificate .fbox-icon img {
+  border: none;
+  border-radius: 0px;
+  background-color: transparent;
+}
+/* END CERTIFICATE */

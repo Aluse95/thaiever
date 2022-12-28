@@ -1,0 +1,89 @@
+* {
+  scroll-behavior: smooth !important;
+}
+
+.title-bottom-border h3 {
+  border-bottom-color: var(--pri-color);
+}
+
+/* START SUB HEADER */
+
+#sub-header {
+  box-shadow: 0 0 40px rgba(0, 0, 0, 15%);
+  position: sticky;
+  top: 80px;
+  z-index: 5;
+  background-color: #fff;
+}
+
+#sub-header ul {
+  height: 50px;
+}
+
+#sub-header ul li {
+  list-style: none;
+  border-bottom: 3px solid transparent;
+  transition: all ease 0.2s;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#sub-header ul li:hover {
+  border-bottom-color: var(--pri-color);
+}
+
+#sub-header ul li a {
+  color: #000;
+}
+
+#sub-header ul li:hover a {
+  color: var(--pri-color);
+}
+
+/* END SUB HEADER */
+
+/* START FUTURE VISION */
+#future-vision {
+  background-image: url("https://timbee.com.vn/Data/Sites/2/skins/timbee/img/introduce/i-sec-2-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* END FUTURE VISION */
+
+/* START VALUE */
+#value .fbox-light .fbox-icon img,
+#value .fbox-icon i,
+#value .fbox-icon img {
+  border: none;
+  border-radius: 0px;
+  background-color: transparent;
+}
+/* END VALUE */
+
+/* START STRATEGY */
+#strategy {
+  background-image: url("https://media.istockphoto.com/id/1254716470/vector/refracted-curved-waves-abstract-white-background.jpg?s=612x612&w=0&k=20&c=w44-q3nXf5Rncqh5OZ7yOLVKqKqYZKjrn1NX8WN_jDY=");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* END STRATEGY */
+
+/* START ARCHIVEMENT */
+#archivement .testimonial p {
+  font-size: 14px;
+}
+
+.owl-carousel .owl-dots .owl-dot {
+  background-color: var(--pri-color);
+}
+/* END ARCHIVEMENT */
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+  #sub-header {
+    display: none;
+  }
+}

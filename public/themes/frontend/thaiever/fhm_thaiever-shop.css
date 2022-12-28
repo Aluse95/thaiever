@@ -1,0 +1,5 @@
+/* START HEADER */
+#header.transparent-header.dark:not(.sticky-header) #header-wrap {
+  background-color: var(--pri-color);
+}
+/* END HEADER */

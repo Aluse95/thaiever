@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+  <!-- Mirrored from themes.semicolonweb.com/html/canvas/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 01 Aug 2021 11:28:28 GMT -->
+  <!-- Added by HTTrack --><meta
+    http-equiv="content-type"
+    content="text/html;charset=utf-8"
+  /><!-- /Added by HTTrack -->
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="SemiColonWeb" />
+
+    <!-- Stylesheets
+	============================================= -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&amp;display=swap"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="css/swiper.css" type="text/css" />
+    <link rel="stylesheet" href="css/dark.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+    <link rel="stylesheet" href="css/custom.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="demos/shop/css/fonts.css" type="text/css" />
+    <link rel="stylesheet" href="fhm_thaiever.css" />
+    <link rel="stylesheet" href="fhm_thaiever-shop.css" />
+
+    <!-- Real Estate Demo Specific Stylesheet -->
+    <link
+      rel="stylesheet"
+      href="demos/real-estate/real-estate.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="demos/real-estate/css/font-icons.css"
+      type="text/css"
+    />
+
+    <!-- / -->
+
+    <!-- Document Title
+	============================================= -->
+    <title>FHM - Thaiever Shop</title>
+  </head>
+
+  <body class="stretched">
+    <!-- Document Wrapper
+	============================================= -->
+    <div id="wrapper" class="clearfix">
+      <!-- Header
+		============================================= -->
+      <header
+        id="header"
+        class="transparent-header dark header-size-md"
+        data-sticky-shrink="false"
+      >
+        <div id="header-wrap">
+          <div class="container">
+            <div class="header-row">
+              <!-- Logo
+						============================================= -->
+              <div id="logo">
+                <a
+                  href="index-2.html"
+                  data-dark-logo="https://fhmvietnam.com/data/cms-image/logo/logo_new_light.png"
+                  class="standard-logo"
+                  ><img
+                    src="https://fhmvietnam.com/data/cms-image/logo/logo_new_light.png"
+                    alt="Canvas Logo"
+                /></a>
+                <a
+                  href="index-2.html"
+                  data-dark-logo="https://fhmvietnam.com/data/cms-image/logo/logo_new_light.png"
+                  class="retina-logo"
+                  ><img
+                    src="https://fhmvietnam.com/data/cms-image/logo/logo_new_light.png"
+                    alt="Canvas Logo"
+                /></a>
+              </div>
+              <!-- #logo end -->
+
+              <div class="header-misc">
+                <!-- Top Search
+            ============================================= -->
+                <div id="top-search" class="header-misc-icon">
+                  <a href="#" id="top-search-trigger"
+                    ><i class="icon-line-search"></i
+                    ><i class="icon-line-cross"></i
+                  ></a>
+                </div>
+                <!-- #top-search end -->
+              </div>
+
+              <div id="primary-menu-trigger">
+                <svg class="svg-trigger" viewBox="0 0 100 100">
+                  <path
+                    d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"
+                  ></path>
+                  <path d="m 30,50 h 40"></path>
+                  <path
+                    d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"
+                  ></path>
+                </svg>
+              </div>
+
+              <!-- Primary Navigation
+						============================================= -->
+              <nav class="primary-menu with-arrows">
+                <ul class="menu-container">
+                  <li class="menu-item current">
+                    <a class="menu-link" href="demo-real-estate.html"
+                      ><div>Trang chủ</div></a
+                    >
+                  </li>
+                  <li class="menu-item">
+                    <a class="menu-link" href="demo-real-estate-about-us.html"
+                      ><div>Sản phẩm</div></a
+                    >
+                  </li>
+                  <li class="menu-item">
+                    <a class="menu-link" href="#"><div>Dự án</div></a>
+                    <ul class="sub-menu-container">
+                      <li class="menu-item">
+                        <a
+                          class="menu-link"
+                          href="demo-real-estate-single-property.html"
+                          ><div>Condo Apartments</div></a
+                        >
+                      </li>
+                      <li class="menu-item">
+                        <a
+                          class="menu-link"
+                          href="demo-real-estate-single-property.html"
+                          ><div>Luxury Villas</div></a
+                        >
+                      </li>
+                      <li class="menu-item">
+                        <a
+                          class="menu-link"
+                          href="demo-real-estate-single-property.html"
+                          ><div>Premium Estates</div></a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu-item">
+                    <a class="menu-link" href="demo-real-estate-builders.html"
+                      ><div>Tin tức</div></a
+                    >
+                  </li>
+                  <li class="menu-item">
+                    <a class="menu-link" href="demo-real-estate-services.html"
+                      ><div>Đại lý</div></a
+                    >
+                  </li>
+                  <li class="menu-item">
+                    <a class="menu-link" href="demo-real-estate-listing.html"
+                      ><div>Hỗ trợ</div></a
+                    >
+                  </li>
+                  <li class="menu-item">
+                    <a class="menu-link" href="demo-real-estate-contact.html"
+                      ><div>Liên hệ</div></a
+                    >
+                  </li>
+                </ul>
+              </nav>
+              <!-- #primary-menu end -->
+            </div>
+          </div>
+        </div>
+        <div class="header-wrap-clone"></div>
+      </header>
+      <!-- #header end -->
+
+      <!-- Content
+		============================================= -->
+      <section id="content">
+        <div class="content-wrap">
+          <!-- START NEW PRODUCT -->
+          <div id="new-product" class="mt-0 pt-0 section bg-transparent mb-0">
+            <div class="container">
+              <div class="heading-block mb-1">
+                <p class="mb-2">Sản phẩm</p>
+                <h4 class="mb-1">DANH SÁCH SẢN PHẨM</h4>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 mt-5 g-0">
+                  <!-- Portfolio Items
+					============================================= -->
+                  <div
+                    id="portfolio"
+                    class="portfolio row grid-container gutter-30"
+                    data-layout="fitRows"
+                  >
+                    <!-- Portfolio Item: Start -->
+                    <article
+                      class="portfolio-item col-md-4 col-sm-6 col-12 pf-media pf-icons"
+                    >
+                      <!-- Grid Inner: Start -->
+                      <div class="grid-inner">
+                        <!-- Image: Start -->
+                        <div class="portfolio-image">
+                          <a href="#">
+                            <img
+                              src="https://images.unsplash.com/photo-1587702068694-a909ef4aa346?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
+                              alt="Open Imagination"
+                            />
+                          </a>
+                          <!-- Overlay: Start -->
+                          <div class="bg-overlay">
+                            <div
+                              class="bg-overlay-content dark flex-column"
+                              data-hover-animate="fadeIn"
+                            >
+                              <!-- Decription: Start -->
+                              <div
+                                class="portfolio-desc pt-0 center"
+                                data-hover-animate="fadeInDownSmall"
+                                data-hover-animate-out="fadeOutUpSmall"
+                                data-hover-speed="350"
+                              >
+                                <h3>
+                                  <a href="#">SG-05s</a>
+                                </h3>
+                              </div>
+                              <!-- Description: End -->
+                              <div class="d-flex">
+                                <a
+                                  href="#"
+                                  class="overlay-trigger-icon bg-light text-dark"
+                                  data-hover-animate="fadeInUpSmall"
+                                  data-hover-animate-out="fadeOutDownSmall"
+                                  data-hover-speed="350"
+                                  ><i class="icon-line-ellipsis"></i
+                                ></a>
+                              </div>
+                            </div>
+                            <div
+                              class="bg-overlay-bg dark"
+                              data-hover-animate="fadeIn"
+                            ></div>
+                          </div>
+                          <!-- Overlay: End -->
+                        </div>
+                        <!-- Image: End -->
+                      </div>
+                      <!-- Grid Inner: End -->
+                    </article>
+                    <article
+                      class="portfolio-item col-md-4 col-sm-6 col-12 pf-media pf-icons"
+                    >
+                      <!-- Grid Inner: Start -->
+                      <div class="grid-inner">
+                        <!-- Image: Start -->
+                        <div class="portfolio-image">
+                          <a href="#">
+                            <img
+                              src="https://images.unsplash.com/photo-1587702068694-a909ef4aa346?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
+                              alt="Open Imagination"
+                            />
+                          </a>
+                          <!-- Overlay: Start -->
+                          <div class="bg-overlay">
+                            <div
+                              class="bg-overlay-content dark flex-column"
+                              data-hover-animate="fadeIn"
+                            >
+                              <!-- Decription: Start -->
+                              <div
+                                class="portfolio-desc pt-0 center"
+                                data-hover-animate="fadeInDownSmall"
+                                data-hover-animate-out="fadeOutUpSmall"
+                                data-hover-speed="350"
+                              >
+                                <h3>
+                                  <a href="#">SG-05s</a>
+                                </h3>
+                              </div>
+                              <!-- Description: End -->
+                              <div class="d-flex">
+                                <a
+                                  href="#"
+                                  class="overlay-trigger-icon bg-light text-dark"
+                                  data-hover-animate="fadeInUpSmall"
+                                  data-hover-animate-out="fadeOutDownSmall"
+                                  data-hover-speed="350"
+                                  ><i class="icon-line-ellipsis"></i
+                                ></a>
+                              </div>
+                            </div>
+                            <div
+                              class="bg-overlay-bg dark"
+                              data-hover-animate="fadeIn"
+                            ></div>
+                          </div>
+                          <!-- Overlay: End -->
+                        </div>
+                        <!-- Image: End -->
+                      </div>
+                      <!-- Grid Inner: End -->
+                    </article>
+                    <article
+                      class="portfolio-item col-md-4 col-sm-6 col-12 pf-media pf-icons"
+                    >
+                      <!-- Grid Inner: Start -->
+                      <div class="grid-inner">
+                        <!-- Image: Start -->
+                        <div class="portfolio-image">
+                          <a href="#">
+                            <img
+                              src="https://images.unsplash.com/photo-1587702068694-a909ef4aa346?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
+                              alt="Open Imagination"
+                            />
+                          </a>
+                          <!-- Overlay: Start -->
+                          <div class="bg-overlay">
+                            <div
+                              class="bg-overlay-content dark flex-column"
+                              data-hover-animate="fadeIn"
+                            >
+                              <!-- Decription: Start -->
+                              <div
+                                class="portfolio-desc pt-0 center"
+                                data-hover-animate="fadeInDownSmall"
+                                data-hover-animate-out="fadeOutUpSmall"
+                                data-hover-speed="350"
+                              >
+                                <h3>
+                                  <a href="#">SG-05s</a>
+                                </h3>
+                              </div>
+                              <!-- Description: End -->
+                              <div class="d-flex">
+                                <a
+                                  href="#"
+                                  class="overlay-trigger-icon bg-light text-dark"
+                                  data-hover-animate="fadeInUpSmall"
+                                  data-hover-animate-out="fadeOutDownSmall"
+                                  data-hover-speed="350"
+                                  ><i class="icon-line-ellipsis"></i
+                                ></a>
+                              </div>
+                            </div>
+                            <div
+                              class="bg-overlay-bg dark"
+                              data-hover-animate="fadeIn"
+                            ></div>
+                          </div>
+                          <!-- Overlay: End -->
+                        </div>
+                        <!-- Image: End -->
+                      </div>
+                      <!-- Grid Inner: End -->
+                    </article>
+                    <article
+                      class="portfolio-item col-md-4 col-sm-6 col-12 pf-media pf-icons"
+                    >
+                      <!-- Grid Inner: Start -->
+                      <div class="grid-inner">
+                        <!-- Image: Start -->
+                        <div class="portfolio-image">
+                          <a href="#">
+                            <img
+                              src="https://images.unsplash.com/photo-1587702068694-a909ef4aa346?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
+                              alt="Open Imagination"
+                            />
+                          </a>
+                          <!-- Overlay: Start -->
+                          <div class="bg-overlay">
+                            <div
+                              class="bg-overlay-content dark flex-column"
+                              data-hover-animate="fadeIn"
+                            >
+                              <!-- Decription: Start -->
+                              <div
+                                class="portfolio-desc pt-0 center"
+                                data-hover-animate="fadeInDownSmall"
+                                data-hover-animate-out="fadeOutUpSmall"
+                                data-hover-speed="350"
+                              >
+                                <h3>
+                                  <a href="#">SG-05s</a>
+                                </h3>
+                              </div>
+                              <!-- Description: End -->
+                              <div class="d-flex">
+                                <a
+                                  href="#"
+                                  class="overlay-trigger-icon bg-light text-dark"
+                                  data-hover-animate="fadeInUpSmall"
+                                  data-hover-animate-out="fadeOutDownSmall"
+                                  data-hover-speed="350"
+                                  ><i class="icon-line-ellipsis"></i
+                                ></a>
+                              </div>
+                            </div>
+                            <div
+                              class="bg-overlay-bg dark"
+                              data-hover-animate="fadeIn"
+                            ></div>
+                          </div>
+                          <!-- Overlay: End -->
+                        </div>
+                        <!-- Image: End -->
+                      </div>
+                      <!-- Grid Inner: End -->
+                    </article>
+                    <article
+                      class="portfolio-item col-md-4 col-sm-6 col-12 pf-media pf-icons"
+                    >
+                      <!-- Grid Inner: Start -->
+                      <div class="grid-inner">
+                        <!-- Image: Start -->
+                        <div class="portfolio-image">
+                          <a href="#">
+                            <img
+                              src="https://images.unsplash.com/photo-1587702068694-a909ef4aa346?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
+                              alt="Open Imagination"
+                            />
+                          </a>
+                          <!-- Overlay: Start -->
+                          <div class="bg-overlay">
+                            <div
+                              class="bg-overlay-content dark flex-column"
+                              data-hover-animate="fadeIn"
+                            >
+                              <!-- Decription: Start -->
+                              <div
+                                class="portfolio-desc pt-0 center"
+                                data-hover-animate="fadeInDownSmall"
+                                data-hover-animate-out="fadeOutUpSmall"
+                                data-hover-speed="350"
+                              >
+                                <h3>
+                                  <a href="#">SG-05s</a>
+                                </h3>
+                              </div>
+                              <!-- Description: End -->
+                              <div class="d-flex">
+                                <a
+                                  href="#"
+                                  class="overlay-trigger-icon bg-light text-dark"
+                                  data-hover-animate="fadeInUpSmall"
+                                  data-hover-animate-out="fadeOutDownSmall"
+                                  data-hover-speed="350"
+                                  ><i class="icon-line-ellipsis"></i
+                                ></a>
+                              </div>
+                            </div>
+                            <div
+                              class="bg-overlay-bg dark"
+                              data-hover-animate="fadeIn"
+                            ></div>
+                          </div>
+                          <!-- Overlay: End -->
+                        </div>
+                        <!-- Image: End -->
+                      </div>
+                      <!-- Grid Inner: End -->
+                    </article>
+                    <article
+                      class="portfolio-item col-md-4 col-sm-6 col-12 pf-media pf-icons"
+                    >
+                      <!-- Grid Inner: Start -->
+                      <div class="grid-inner">
+                        <!-- Image: Start -->
+                        <div class="portfolio-image">
+                          <a href="#">
+                            <img
+                              src="https://images.unsplash.com/photo-1587702068694-a909ef4aa346?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
+                              alt="Open Imagination"
+                            />
+                          </a>
+                          <!-- Overlay: Start -->
+                          <div class="bg-overlay">
+                            <div
+                              class="bg-overlay-content dark flex-column"
+                              data-hover-animate="fadeIn"
+                            >
+                              <!-- Decription: Start -->
+                              <div
+                                class="portfolio-desc pt-0 center"
+                                data-hover-animate="fadeInDownSmall"
+                                data-hover-animate-out="fadeOutUpSmall"
+                                data-hover-speed="350"
+                              >
+                                <h3>
+                                  <a href="#">SG-05s</a>
+                                </h3>
+                              </div>
+                              <!-- Description: End -->
+                              <div class="d-flex">
+                                <a
+                                  href="#"
+                                  class="overlay-trigger-icon bg-light text-dark"
+                                  data-hover-animate="fadeInUpSmall"
+                                  data-hover-animate-out="fadeOutDownSmall"
+                                  data-hover-speed="350"
+                                  ><i class="icon-line-ellipsis"></i
+                                ></a>
+                              </div>
+                            </div>
+                            <div
+                              class="bg-overlay-bg dark"
+                              data-hover-animate="fadeIn"
+                            ></div>
+                          </div>
+                          <!-- Overlay: End -->
+                        </div>
+                        <!-- Image: End -->
+                      </div>
+                      <!-- Grid Inner: End -->
+                    </article>
+                    <article
+                      class="portfolio-item col-md-4 col-sm-6 col-12 pf-media pf-icons"
+                    >
+                      <!-- Grid Inner: Start -->
+                      <div class="grid-inner">
+                        <!-- Image: Start -->
+                        <div class="portfolio-image">
+                          <a href="#">
+                            <img
+                              src="https://images.unsplash.com/photo-1587702068694-a909ef4aa346?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
+                              alt="Open Imagination"
+                            />
+                          </a>
+                          <!-- Overlay: Start -->
+                          <div class="bg-overlay">
+                            <div
+                              class="bg-overlay-content dark flex-column"
+                              data-hover-animate="fadeIn"
+                            >
+                              <!-- Decription: Start -->
+                              <div
+                                class="portfolio-desc pt-0 center"
+                                data-hover-animate="fadeInDownSmall"
+                                data-hover-animate-out="fadeOutUpSmall"
+                                data-hover-speed="350"
+                              >
+                                <h3>
+                                  <a href="#">SG-05s</a>
+                                </h3>
+                              </div>
+                              <!-- Description: End -->
+                              <div class="d-flex">
+                                <a
+                                  href="#"
+                                  class="overlay-trigger-icon bg-light text-dark"
+                                  data-hover-animate="fadeInUpSmall"
+                                  data-hover-animate-out="fadeOutDownSmall"
+                                  data-hover-speed="350"
+                                  ><i class="icon-line-ellipsis"></i
+                                ></a>
+                              </div>
+                            </div>
+                            <div
+                              class="bg-overlay-bg dark"
+                              data-hover-animate="fadeIn"
+                            ></div>
+                          </div>
+                          <!-- Overlay: End -->
+                        </div>
+                        <!-- Image: End -->
+                      </div>
+                      <!-- Grid Inner: End -->
+                    </article>
+                    <article
+                      class="portfolio-item col-md-4 col-sm-6 col-12 pf-media pf-icons"
+                    >
+                      <!-- Grid Inner: Start -->
+                      <div class="grid-inner">
+                        <!-- Image: Start -->
+                        <div class="portfolio-image">
+                          <a href="#">
+                            <img
+                              src="https://images.unsplash.com/photo-1587702068694-a909ef4aa346?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
+                              alt="Open Imagination"
+                            />
+                          </a>
+                          <!-- Overlay: Start -->
+                          <div class="bg-overlay">
+                            <div
+                              class="bg-overlay-content dark flex-column"
+                              data-hover-animate="fadeIn"
+                            >
+                              <!-- Decription: Start -->
+                              <div
+                                class="portfolio-desc pt-0 center"
+                                data-hover-animate="fadeInDownSmall"
+                                data-hover-animate-out="fadeOutUpSmall"
+                                data-hover-speed="350"
+                              >
+                                <h3>
+                                  <a href="#">SG-05s</a>
+                                </h3>
+                              </div>
+                              <!-- Description: End -->
+                              <div class="d-flex">
+                                <a
+                                  href="#"
+                                  class="overlay-trigger-icon bg-light text-dark"
+                                  data-hover-animate="fadeInUpSmall"
+                                  data-hover-animate-out="fadeOutDownSmall"
+                                  data-hover-speed="350"
+                                  ><i class="icon-line-ellipsis"></i
+                                ></a>
+                              </div>
+                            </div>
+                            <div
+                              class="bg-overlay-bg dark"
+                              data-hover-animate="fadeIn"
+                            ></div>
+                          </div>
+                          <!-- Overlay: End -->
+                        </div>
+                        <!-- Image: End -->
+                      </div>
+                      <!-- Grid Inner: End -->
+                    </article>
+                    <article
+                      class="portfolio-item col-md-4 col-sm-6 col-12 pf-media pf-icons"
+                    >
+                      <!-- Grid Inner: Start -->
+                      <div class="grid-inner">
+                        <!-- Image: Start -->
+                        <div class="portfolio-image">
+                          <a href="#">
+                            <img
+                              src="https://images.unsplash.com/photo-1587702068694-a909ef4aa346?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
+                              alt="Open Imagination"
+                            />
+                          </a>
+                          <!-- Overlay: Start -->
+                          <div class="bg-overlay">
+                            <div
+                              class="bg-overlay-content dark flex-column"
+                              data-hover-animate="fadeIn"
+                            >
+                              <!-- Decription: Start -->
+                              <div
+                                class="portfolio-desc pt-0 center"
+                                data-hover-animate="fadeInDownSmall"
+                                data-hover-animate-out="fadeOutUpSmall"
+                                data-hover-speed="350"
+                              >
+                                <h3>
+                                  <a href="#">SG-05s</a>
+                                </h3>
+                              </div>
+                              <!-- Description: End -->
+                              <div class="d-flex">
+                                <a
+                                  href="#"
+                                  class="overlay-trigger-icon bg-light text-dark"
+                                  data-hover-animate="fadeInUpSmall"
+                                  data-hover-animate-out="fadeOutDownSmall"
+                                  data-hover-speed="350"
+                                  ><i class="icon-line-ellipsis"></i
+                                ></a>
+                              </div>
+                            </div>
+                            <div
+                              class="bg-overlay-bg dark"
+                              data-hover-animate="fadeIn"
+                            ></div>
+                          </div>
+                          <!-- Overlay: End -->
+                        </div>
+                        <!-- Image: End -->
+                      </div>
+                      <!-- Grid Inner: End -->
+                    </article>
+                    <!-- Portfolio Item: End -->
+                  </div>
+                  <!-- #portfolio end -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END NEW PRODUCT -->
+        </div>
+      </section>
+      <!-- #content end -->
+
+      <!-- Footer
+		============================================= -->
+      <footer id="footer" class="dark">
+        <div class="container">
+          <!-- Footer Widgets
+				============================================= -->
+          <div class="footer-widgets-wrap">
+            <div class="row col-mb-50">
+              <div class="col-lg-9">
+                <div class="row col-mb-50">
+                  <div class="col-md-4">
+                    <div class="widget clearfix">
+                      <img
+                        src="https://fhmvietnam.com/data/cms-image/logo/logo_new_light.png"
+                        alt="Image"
+                        class="footer-logo"
+                        style="width: 70%"
+                      />
+
+                      <div
+                        style="
+                          background: url('images/world-map.png') no-repeat
+                            center center;
+                          background-size: 100%;
+                        "
+                      >
+                        <address>
+                          <strong>Địa chỉ:</strong><br />
+                          2/25 Thọ Tháp<br />
+                          Cầu Giấy, Hà Nội<br />
+                        </address>
+                        <abbr title="Phone Number"
+                          ><strong>Hotline:</strong></abbr
+                        >
+                        0393004567<br />
+
+                        <abbr title="Email Address"
+                          ><strong>Email:</strong></abbr
+                        >
+                        fhmvietnam@gmail.com
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3">
+                    <div class="widget widget_links clearfix">
+                      <h4>Giới thiệu</h4>
+
+                      <ul>
+                        <li>
+                          <a href="https://codex.wordpress.org/"
+                            >Câu chuyện Thaiever</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="https://wordpress.org/support/forum/requests-and-feedback"
+                            >Tầm nhìn sứ mệnh</a
+                          >
+                        </li>
+                        <li>
+                          <a href="https://wordpress.org/extend/plugins/"
+                            >Giá trị cốt lõi</a
+                          >
+                        </li>
+                        <li>
+                          <a href="https://wordpress.org/support/"
+                            >Chiến lược phát triển</a
+                          >
+                        </li>
+                        <li>
+                          <a href="https://wordpress.org/extend/themes/"
+                            >Danh hiệu giải thưởng</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="widget widget_links clearfix">
+                      <h4>Sản phẩm</h4>
+
+                      <ul>
+                        <li>
+                          <a href="https://codex.wordpress.org/">Thaiever</a>
+                        </li>
+                        <li>
+                          <a
+                            href="https://wordpress.org/support/forum/requests-and-feedback"
+                            >GreenWood</a
+                          >
+                        </li>
+                        <li>
+                          <a href="https://wordpress.org/extend/plugins/"
+                            >Atroguard</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="widget widget_links clearfix">
+                      <h4>Liên kết nhanh</h4>
+
+                      <ul>
+                        <li>
+                          <a href="https://codex.wordpress.org/">Sản phẩm</a>
+                        </li>
+                        <li>
+                          <a
+                            href="https://wordpress.org/support/forum/requests-and-feedback"
+                            >Design</a
+                          >
+                        </li>
+                        <li>
+                          <a href="https://wordpress.org/extend/plugins/"
+                            >Dự án</a
+                          >
+                        </li>
+                        <li>
+                          <a href="https://wordpress.org/support/">Tin tức</a>
+                        </li>
+                        <li>
+                          <a href="https://wordpress.org/extend/themes/"
+                            >Liên hệ</a
+                          >
+                        </li>
+                        <li>
+                          <a href="https://wordpress.org/news/">Canvas Blog</a>
+                        </li>
+                        <li>
+                          <a href="https://planet.wordpress.org/"
+                            >Hỗ trợ khách hàng</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="row col-mb-50">
+                  <div class="col-md-5 col-lg-12">
+                    <div class="widget subscribe-widget clearfix">
+                      <h4>Đăng kí nhận bản tin</h4>
+                      <div class="widget-subscribe-form-result"></div>
+                      <form
+                        id="widget-subscribe-form"
+                        action="http://themes.semicolonweb.com/html/canvas/include/subscribe.php"
+                        method="post"
+                        class="mb-0"
+                      >
+                        <div class="input-group mx-auto">
+                          <div class="input-group-text">
+                            <i class="icon-email2"></i>
+                          </div>
+                          <input
+                            type="email"
+                            id="widget-subscribe-form-email"
+                            name="widget-subscribe-form-email"
+                            class="form-control required email"
+                            placeholder="Địa chỉ email"
+                          />
+                          <button class="btn bg-light" type="submit">
+                            Đăng kí
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 col-lg-12">
+                    <div class="widget clearfix" style="margin-bottom: -20px">
+                      <div class="row">
+                        <div
+                          class="col-6 col-md-12 col-lg-6 clearfix bottommargin-sm"
+                        >
+                          <a
+                            href="#"
+                            class="social-icon si-dark si-colored si-facebook mb-0"
+                            style="margin-right: 10px"
+                          >
+                            <i class="icon-facebook"></i>
+                            <i class="icon-facebook"></i>
+                          </a>
+                          <a href="#"
+                            ><small style="display: block; margin-top: 3px"
+                              ><strong>Like us</strong><br />on Facebook</small
+                            ></a
+                          >
+                        </div>
+                        <div class="col-6 col-md-12 col-lg-6 clearfix">
+                          <a
+                            href="#"
+                            class="social-icon si-dark si-colored si-rss mb-0"
+                            style="margin-right: 10px"
+                          >
+                            <i class="icon-rss"></i>
+                            <i class="icon-rss"></i>
+                          </a>
+                          <a href="#"
+                            ><small style="display: block; margin-top: 3px"
+                              ><strong>Subscribe</strong><br />to RSS
+                              Feeds</small
+                            ></a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- .footer-widgets-wrap end -->
+        </div>
+
+        <!-- Copyrights
+			============================================= -->
+        <div id="copyrights">
+          <div class="container">
+            <div class="row col-mb-30">
+              <div class="col-md-12 text-center">
+                Copyrights &copy; 2020 Bản quyền thuộc về FHM Agency
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- #copyrights end -->
+      </footer>
+      <!-- #footer end -->
+    </div>
+    <!-- #wrapper end -->
+
+    <!-- Go To Top
+	============================================= -->
+    <div id="gotoTop" class="icon-angle-up"></div>
+
+    <!-- JavaScripts
+	============================================= -->
+    <script src="js/jquery.js"></script>
+    <script src="js/plugins.min.js"></script>
+
+    <!-- Footer Scripts
+	============================================= -->
+    <script src="js/functions.js"></script>
+  </body>
+
+  <!-- Mirrored from themes.semicolonweb.com/html/canvas/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 01 Aug 2021 11:28:29 GMT -->
+</html>
